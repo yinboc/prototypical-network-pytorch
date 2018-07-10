@@ -17,11 +17,11 @@ Evaluated on Mini-ImageNet.
 
 ## Instructions
 
-`cd materials`, make a folder `images` and put images required in `.csv` file to the folder.
+1. Download [Mini-ImageNet](https://openreview.net/pdf?id=rJY0-Kcll): https://drive.google.com/open?id=0B3Irx3uQNoBMQ1FlNXJsZUdYWEE
 
-(Download images: https://drive.google.com/open?id=0B3Irx3uQNoBMQ1FlNXJsZUdYWEE)
+2. Make a folder `materials/images` and put those images into it.
 
-`mkdir save` for saving models.
+3. `mkdir save` for saving models.
 
 `--gpu` to specify device for program.
 
