@@ -35,7 +35,7 @@ Evaluated on Mini-ImageNet.
 
 ### 5-shot Train
 
-`python train.py --shot 5 --train-way 20`
+`python train.py --shot 5 --train-way 20 --save-path ./save/proto-5`
 
 ### 5-shot Test
 
