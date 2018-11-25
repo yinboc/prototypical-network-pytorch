@@ -88,6 +88,8 @@ if __name__ == '__main__':
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
+            
+            proto = None; logits = None; loss = None
 
         tl = tl.item()
         ta = ta.item()
@@ -114,6 +116,8 @@ if __name__ == '__main__':
 
             vl.add(loss.item())
             va.add(acc)
+            
+            proto = None; logits = None; loss = None
 
         vl = vl.item()
         va = va.item()
