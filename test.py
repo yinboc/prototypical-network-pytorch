@@ -1,7 +1,6 @@
 import argparse
 
 import torch
-import torch.nn.functional as F
 from torch.utils.data import DataLoader
 
 from mini_imagenet import MiniImageNet
@@ -54,3 +53,4 @@ if __name__ == '__main__':
         print('batch {}: {:.2f}({:.2f})'.format(i, ave_acc.item() * 100, acc * 100))
         
         x = None; p = None; logits = None
+
