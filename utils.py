@@ -15,9 +15,9 @@ def ensure_path(path):
     if os.path.exists(path):
         if input('{} exists, remove? ([y]/n)'.format(path)) != 'n':
             shutil.rmtree(path)
-            os.mkdir(path)
+            os.makedirs(path)
     else:
-        os.mkdir(path)
+        os.makedirs(path)
 
 
 class Averager():
