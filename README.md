@@ -21,8 +21,6 @@ Evaluated on Mini-ImageNet.
 
 2. Make a folder `materials/images` and put those images into it.
 
-3. `mkdir save` for saving models.
-
 `--gpu` to specify device for program.
 
 ### 1-shot Train
@@ -40,4 +38,3 @@ Evaluated on Mini-ImageNet.
 ### 5-shot Test
 
 `python test.py --load ./save/proto-5/max-acc.pth --shot 5`
-
