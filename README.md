@@ -1,16 +1,16 @@
 # Prototypical Network
 
-A re-implementation of Prototypical Network.
+A re-implementation of [Prototypical Network](https://arxiv.org/abs/1703.05175).
 
 Evaluated on Mini-ImageNet.
 
 ### Results
 
-1-shot: 49.1% (49.4% in paper)
+1-shot: 49.1% (49.4% in the paper)
 
-5-shot: 66.9% (68.2% in paper)
+5-shot: 66.9% (68.2% in the paper)
 
-## Requirements
+## Environment
 
 * python 3
 * pytorch 0.4.0
