@@ -2,9 +2,11 @@ import torch.nn as nn
 
 
 def conv_block(in_channels, out_channels):
+    bn = nn.BatchNorm2d(out_channels)
+    nn.init.uniform_(bn.weight) # for pytorch 1.2 or later
     return nn.Sequential(
         nn.Conv2d(in_channels, out_channels, 3, padding=1),
-        nn.BatchNorm2d(out_channels),
+        bn,
         nn.ReLU(),
         nn.MaxPool2d(2)
     )
