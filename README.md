@@ -4,7 +4,7 @@ A re-implementation of [Prototypical Network](https://arxiv.org/abs/1703.05175).
 
 With ConvNet-4 backbone on miniImageNet.
 
-For larger backbones (ResNet), see [Meta-Baseline](https://github.com/cyvius96/few-shot-meta-baseline).
+***For deep backbones (ResNet), see [Meta-Baseline](https://github.com/cyvius96/few-shot-meta-baseline).***
 
 ### Results
 
